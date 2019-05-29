@@ -5,7 +5,9 @@ import CommentDetail from './CommentDetail';
 const App = () => {
   return (
     <div className="ui container comments">
-      <CommentDetail />
+      <CommentDetail autor="Sam" />
+      <CommentDetail autor="Frank" />
+      <CommentDetail autor="Rodrigo" />
     </div>
   );
 };
